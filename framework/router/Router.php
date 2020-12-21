@@ -37,15 +37,13 @@ class Router {
         }
 
         $this->routes[$method][$url] = $callable;
-//        echo "<pre>";
-//        var_dump($this->routes);die();
-//        echo "</pre>";
+       
+
     }
 
     /**
      * @param $method
      * @param $url
-     * @return mixed
      * @throws Exception
      */
     public function match($method, $url)
@@ -59,5 +57,6 @@ class Router {
         }
 
         return $this->routes[$method][$url];
+
     }
 }

@@ -1,8 +1,8 @@
 <?php
-class HttpMethods{
-    const GET='GET';
-    const POST='POST';
-    const PUT='PUT';
-    const DELETE='DELETE';
 
+class HttpMethods {
+    const GET = 'GET';
+    const POST = 'POST';
+    const PUT = 'PUT';
+    const DELETE = 'DELETE';
 }
